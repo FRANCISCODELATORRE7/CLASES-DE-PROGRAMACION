@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #04213d;
+  color: white;
+  padding: 2em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.destacada, .ultimas-noticias {
+  padding: 20px;
+}
+
+.destacada img, .ultimas-noticias img {
+  width: 80%;
+  max-width: 500px;
+  height: auto;
+}
+
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 1em;
+  margin-top: 50px;
+}
