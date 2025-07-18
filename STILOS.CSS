@@ -48,3 +48,31 @@ h3 {
   font-weight: bold; /* Negrita */
   color: rgb(8, 3, 53);         /* Cambia 'red' por el color que quieras */
 }
+
+header {
+  background-image: url('https://p4.wallpaperbetter.com/wallpaper/704/106/379/sky-stars-clouds-evening-clear-blue-sky-wallpaper-preview.jpg');
+  background-size: cover;
+  color: rgb(242, 247, 248);
+  padding: 30px;
+  text-align: center;
+}
+header{
+background-image: url('https://p4.wallpaperbetter.com/wallpaper/704/106/379/sky-stars-clouds-evening-clear-blue-sky-wallpaper-preview.jpg');
+}
+
+ body {
+      background-color:#a7f0ec
+    }
+h2{
+    color: rgb(36, 3, 3);
+    font-size: 28px; /* Tamaño del texto en píxeles */
+    font-style: oblique;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
